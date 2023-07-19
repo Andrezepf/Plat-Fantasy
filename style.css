@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+p{
+    text-align: justify; 
+}
+
+a {
+    color: #335cce;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 header h1 {
     margin-left: 15px;
 }
@@ -114,4 +127,12 @@ div#box p {
 
 h2 {
     text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+}
+
+footer hr {
+    margin-left: 10px;
 }
