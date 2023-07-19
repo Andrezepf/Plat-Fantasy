@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 p{
     text-align: justify; 
 }
@@ -13,14 +14,22 @@ a:hover {
     text-decoration: underline;
 }
 
-header h1 {
-    margin-left: 15px;
+img#logosite {
+    margin-top: -10px;
+    margin-left: 5px;
 }
 
 header h2 {
-    margin-top: 0px;
-    margin-left: 15px;
+    margin-top: -5px;
+    margin-left: 19px;
+    font-size: 17pt;
     text-decoration: none;
+}
+
+img#bannerff5 {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 880px;
 }
 
 img#trofplat {
@@ -29,7 +38,7 @@ img#trofplat {
     width: 120px;
     height: 120px;
     position: relative;
-    margin-top: -115px;
+    margin-top: -140px;
 }
 
 ul#logos {
