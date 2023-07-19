@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+header h1 {
+    margin-left: 15px;
+}
+
+header h2 {
+    margin-top: 0px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+img#trofplat {
+    display: block;
+    float: right;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top: -115px;
+}
+
+ul#logos {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#logos li{
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    -webkit-transition: all 0.3s ease-in;
+}
+
+ul#logos li:hover{
+    -webkit-transform: scale(1.3);
+}
+
+ul#logos li#logoff1 {
+    background:url(./images/Logos/final-fantasy-logo.png);
+    background-size: 300px 100px;
+    background-color: white;
+}
+ul#logos li#logoff2 {
+    background:url(./images/Logos/final-fantasy-2-logo.png);
+    background-size: 300px 100px;
+    background-color: white;
+}
+ul#logos li#logoff3 {
+    background:url(./images/Logos/final-fantasy-3-logo.png);
+    background-size: 300px 100px;
+    background-color: white;
+}
+ul#logos li#logoff4 {
+    background:url(./images/Logos/final-fantasy-4-logo.png);
+    background-size: 300px 100px;
+    background-color: white;
+}
+ul#logos li#logoff5 {
+    background:url(./images/Logos/Screenshot_590.png);
+    background-size: 300px 100px;
+    background-color: white;
+}
+ul#logos li#logoff6 {
+    background:url(./images/Logos/final-fantasy-6-logo.png);
+    background-size: 300px 100px;
+    background-color: white;
+}
+
+body {
+    background-color: #161616;
+    color: rgb(240, 239, 239);
+    font-size: 13pt;
+}
+
+h1 {
+    margin: 30px 0px 0px -20px;
+}
+
+h2, hr {
+    margin-left: -20px;
+}
+
+div#interface {
+    width: 900px;
+    background-color: #323435;
+    margin: auto;
+    padding: 15px 25px 15px 7px;
+    border: 1px solid rgba(170, 170, 170, 0.5);
+}
+
+div#box {
+    background-color: rgba(168, 181, 202, 0.15);
+    padding: 0px 8px 0px 8px;
+    border: 1px solid #d3d3d3;
+    margin: 10px 0px 15px -20px;
+}
+
+div#box h3 {
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+div#box p {
+    margin-top: 14px;
+    margin-bottom: 3px;
+}
+
+h2 {
+    text-decoration: underline;
+}
