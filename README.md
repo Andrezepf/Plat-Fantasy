@@ -5,3 +5,5 @@
 
  Todos os detonados já estavam prontos e disponíveis na internet, o objetivo é só
  colocá-los em um site para facilmente navegar entre eles.
+
+ A idéia é praticar HTML e CSS para aprimorar meu conhecimento.
