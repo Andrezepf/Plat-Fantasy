@@ -126,11 +126,11 @@ div#box {
 
 div#box h3 {
     margin-top: 3px;
-    margin-bottom: 0px;
+    margin-bottom: 14px;
 }
 
 div#box p {
-    margin-top: 14px;
+    margin-top: 0px;
     margin-bottom: 3px;
 }
 
