@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'FF';
-    src: url(fonts/finalf.ttf);
+    font-family: 'ff';
+    src: url('fonts/Ferrum-wy99.otf') format('opentype');
 }
+
+
 
 p{
     text-align: justify; 
@@ -20,10 +22,12 @@ a:hover {
 
 header h1{
     padding-left: 39px;
-    font-size: 4em;
-    font-family: 'FF', Arial, Helvetica, sans-serif;
+    font-size: 4.5em;
+    font-family: 'ff', Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
-    color: #3977e9;
+    background: -webkit-linear-gradient(#055bbd, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 header h2 {
