@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'ff';
+    src: url('fonts/Ferrum-wy99.otf') format('opentype');
+}
+
+
 
 p{
     text-align: justify; 
@@ -14,9 +20,15 @@ a:hover {
     text-decoration: underline;
 }
 
-img#logosite {
-    margin-top: -10px;
-    margin-left: 5px;
+header h1{
+    padding-left: 33px;
+    margin-top: 0px;
+    font-size: 4.5em;
+    font-family: 'ff', Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+    background: -webkit-linear-gradient(#055bbd, #c6e3ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 header h2 {
@@ -24,6 +36,8 @@ header h2 {
     margin-left: 19px;
     font-size: 17pt;
     text-decoration: none;
+    font-family: 'FF', Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
 }
 
 img#bannerff5 {
