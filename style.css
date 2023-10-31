@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'FF';
+    src: url(fonts/finalf.ttf);
+}
 
 p{
     text-align: justify; 
@@ -14,9 +18,12 @@ a:hover {
     text-decoration: underline;
 }
 
-img#logosite {
-    margin-top: -10px;
-    margin-left: 5px;
+header h1{
+    padding-left: 39px;
+    font-size: 4em;
+    font-family: 'FF', Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+    color: #3977e9;
 }
 
 header h2 {
@@ -24,6 +31,8 @@ header h2 {
     margin-left: 19px;
     font-size: 17pt;
     text-decoration: none;
+    font-family: 'FF', Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
 }
 
 img#bannerff5 {
