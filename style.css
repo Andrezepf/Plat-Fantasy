@@ -21,11 +21,12 @@ a:hover {
 }
 
 header h1{
-    padding-left: 39px;
+    padding-left: 33px;
+    margin-top: 0px;
     font-size: 4.5em;
     font-family: 'ff', Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
-    background: -webkit-linear-gradient(#055bbd, #fff);
+    background: -webkit-linear-gradient(#055bbd, #c6e3ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
